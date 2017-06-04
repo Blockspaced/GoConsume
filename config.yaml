@@ -1,0 +1,21 @@
+# Example:
+# queue-name:
+#  processes: (number of processes to be spawned) - Validation: int > 0
+#  interval: (number of seconds in which those processes must be executed) - Validation: int > 0
+#  environment: (name of the environment) - Validation: Can't be nil
+#  project: (name of the project) - Validation: Can't be nil
+feed-offer:
+  processes: 1
+  interval: 4
+  environment: "prod"
+  project: "example"
+feed-offer-2:
+  processes: 2
+  interval: 4
+  environment: "prod"
+  project: "example"
+feed-offer-3:
+  processes: 4
+  interval: 4
+  environment: "prod"
+  project: "example"
